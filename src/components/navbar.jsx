@@ -7,7 +7,7 @@ const Navbar = ({ user }) => {
     style={{ marginBottom: "100px" }}
     >
       <Link className="navbar-brand" to="/">
-        Vidly
+        Ali Shan
       </Link>
       <button
         className="navbar-toggler"
