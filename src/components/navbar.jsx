@@ -2,11 +2,11 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 const Navbar = ({ user }) => {
   return (
-    <nav style={{color:"yellow"}}
+    <nav 
       className="navbar navbar-expand-lg navbar-dark bg-dark"
     style={{ marginBottom: "100px" }}
     >
-      <Link className="navbar-brand" to="/">
+      <Link style={{color:"yellow"}} className="navbar-brand" to="/">
         Ali Shan
       </Link>
       <button
@@ -22,22 +22,22 @@ const Navbar = ({ user }) => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <NavLink className="nav-item nav-link" to="/movies">
+          <NavLink style={{color:"yellow"}} className="nav-item nav-link" to="/movies">
             Movies
           </NavLink>
-          <NavLink className="nav-item nav-link" to="/customer">
+          <NavLink style={{color:"yellow"}} className="nav-item nav-link" to="/customer">
             Customers
           </NavLink>
-          <NavLink className="nav-item nav-link" to="/rentals">
+          <NavLink  style={{color:"yellow"}} className="nav-item nav-link" to="/rentals">
             Rentals
           </NavLink>
 
           {!user && (
             <React.Fragment>
-              <NavLink className="nav-item nav-link" to="/login">
+              <NavLink style={{color:"yellow"}} className="nav-item nav-link" to="/login">
                 Login
               </NavLink>
-              <NavLink className="nav-item nav-link" to="/register">
+              <NavLink style={{color:"yellow"}} className="nav-item nav-link" to="/register">
                 Register
               </NavLink>
             </React.Fragment>
