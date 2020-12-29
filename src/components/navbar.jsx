@@ -2,9 +2,9 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 const Navbar = ({ user }) => {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-light bg-light"
-      style={{ marginBottom: "100px" }}
+    <nav style={{color:"yellow"}}
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
+    style={{ marginBottom: "100px" }}
     >
       <Link className="navbar-brand" to="/">
         Vidly
